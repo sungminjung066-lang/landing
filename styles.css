@@ -82,7 +82,8 @@ button.download {
 }
 
 /*누워서 뒹구는 고양이 이미지*/
-div.bed_cat {
+div.bed_cat_container {
+  position: relative;
   text-align: center;
   border-radius: 10px;
   width: 326px;
@@ -91,4 +92,28 @@ div.bed_cat {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+img.bed_cat {
+  position: absolute;
+  right: -10px;
+  bottom: -120px;
+}
+
+/*본문2*/
+
+div.text_container {
+  text-align: center;
+  width: 390px;
+  margin: auto;
+}
+
+p.text_three {
+  text-align: left;
+  font-size: 24px;
+}
+
+p.text_four {
+  font-size: 14px;
+  text-align: left;
 }
